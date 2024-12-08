@@ -1,4 +1,4 @@
-# Automation Testing Project for SauceDemo
+# Automation Testing Project for SauceDemo.com
 
 ## Deskripsi Proyek
 Proyek ini bertujuan untuk mengotomatisasi pengujian pada platform e-commerce SauceDemo. Pengujian dilakukan untuk memastikan alur kerja utama seperti login, menambahkan produk ke keranjang, dan proses checkout berjalan dengan baik. Proyek ini menggunakan Selenium WebDriver dan TestNG untuk menciptakan pengujian yang efektif, efisien, dan mudah dikelola.
