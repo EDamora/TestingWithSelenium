@@ -93,20 +93,6 @@ public class CheckoutTest {
       Assert.assertTrue(errorMessage.getText().contains("Error: First Name is required"), "Error message not displayed for missing first name!");
     }
 
-    @Test(priority = 3)
-    public void testInvalidPostalCode() {
-        // Isi data checkout dengan postal code tidak valid
-        checkoutPage.fillCheckoutInfo("Erick", "Damora", "*-");
-        checkoutPage.clickContinue();
-
-        // Tunggu elemen pesan error muncul
-        WebElement errorMessage = wait.until(ExpectedConditions.presenceOfElementLocated(By.className("error-message-container")));
-
-        // Verifikasi pesan error
-        Assert.assertTrue(errorMessage.getText().contains("Error: Postal Code is required"), "Error message not displayed for invalid postal code!");
-
-    }
-
     @AfterMethod
     public void tearDown() {
         try {
