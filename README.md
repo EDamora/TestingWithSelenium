@@ -20,6 +20,9 @@ Proyek ini bertujuan untuk mengotomatisasi pengujian pada platform e-commerce Sa
 ## Dokumentasi
 1. Dokumentasi Skenario Pengujian:
    * Google Spreadsheet [https://docs.google.com/spreadsheets/d/1CazrO7Qu3xayESIDd0HI_B6zRUOtbbvg4OY-KOcvR2U/edit?usp=sharing]
+   * Gambar
+        * LoginTest ==> ![image](https://github.com/user-attachments/assets/62b93b48-92a8-4d0a-90df-94cfc605111f)
+
 
 ## Hasil Utama
 Semua pengujian positif dan negatif berhasil sesuai harapan.
